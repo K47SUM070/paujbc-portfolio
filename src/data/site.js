@@ -1,0 +1,77 @@
+export const site = {
+  name: 'Juan Bautista Coria',
+  alias: 'PauJBC',
+  email: 'bautistacoria1998@gmail.com',
+  intro: 'Entre la tecnología y la música, siempre en movimiento.',
+  summary: 'Artista y productor musical, creador audiovisual y desarrollador web. También me formo en soporte técnico y ciberseguridad.',
+  about: 'Me gusta aprender haciendo: probar, resolver, documentar y volver a mejorar. Busco soluciones claras y útiles, con el mismo espíritu curioso que llevo a mis proyectos musicales.',
+  navigation: [
+    { label: 'Inicio', href: '#inicio' },
+    { label: 'Música', href: '#musica' },
+    { label: 'Arcade', href: '#arcade' },
+    { label: 'Proyectos', href: '#proyectos' },
+    { label: 'Sobre mí', href: '#sobre-mi' },
+    { label: 'Prácticas SOC', href: '#soc' },
+    { label: 'Trabajemos juntos', href: '#trabajemos' },
+    { label: 'Contacto', href: '#contacto' },
+  ],
+  areas: [
+    { number: '01', name: 'Desarrollo web', detail: 'Interfaces útiles, ligeras y adaptables.' },
+    { number: '02', name: 'Soporte técnico y ciberseguridad inicial', detail: 'Formación en curso y prácticas guiadas SOC-L1.' },
+    { number: '03', name: 'Producción musical', detail: 'Música independiente, producción y colaboración.' },
+    { number: '04', name: 'Creación audiovisual', detail: 'Producción y exploración creativa.' },
+  ],
+  projects: [
+    {
+      name: 'Valeria del Faro · Suite Spa',
+      category: 'Proyecto colaborativo',
+      description: 'Un sitio para Valeria del Faro Suite & Spa, realizado junto con mi hermano y su socio.',
+      image: '/valeria-capture.webp',
+      imageAlt: 'Captura real de la portada de Valeria del Faro Suite & Spa',
+      links: [
+        { label: 'Ver sitio', href: 'https://valeriadelfaro.com.ar/' },
+        { label: 'Repositorio', href: 'https://github.com/ivanco0496-web/valeria-del-faro-suite-spa.git' },
+      ],
+    },
+    {
+      name: 'Dejá tu huella',
+      category: 'Sitio web',
+      description: 'Una propuesta visual para indumentaria urbana y sneakers, con una portada de alto contraste.',
+      image: '/huella-capture.webp',
+      imageAlt: 'Captura real de la portada de Dejá tu huella',
+      links: [{ label: 'Ver sitio', href: 'https://dejatuhuella.vercel.app/' }],
+    },
+  ],
+  lab: {
+    title: 'Laboratorio SOC-L1',
+    description: 'Prácticas educativas de análisis con evidencias y sistemas simulados. Un espacio para ejercitar el criterio y documentar hallazgos.',
+    link: { label: 'Ver laboratorio en GitHub', href: 'https://github.com/K47SUM070/soc-l1-lab' },
+    cases: [
+      { id: '001', title: 'Análisis de SSH', state: 'Práctica guiada completada', text: 'Registro y ticket resuelto como referencia.' },
+      { id: '002', title: 'Triage de correo', state: 'Pendiente', text: 'Lectura de evidencias y elaboración del ticket.' },
+      { id: '003', title: 'Investigación de SSH', state: 'Pendiente', text: 'Continuación L2 del primer ejercicio.' },
+    ],
+  },
+  music: {
+    title: 'Pau JBC',
+    description: 'Rap, hip hop y música independiente desde General Madariaga. Canto, produzco música y trabajo en piezas audiovisuales, solo y en colaboración.',
+    link: { label: 'Ir al canal de YouTube', href: 'https://www.youtube.com/@paujbc' },
+    videos: [
+      { id: 'm0HwOU9GCKk', title: 'Pau - Recuerdo', thumbnail: 'https://i.ytimg.com/vi/m0HwOU9GCKk/hqdefault.jpg', note: '2:40 · PauJBC' },
+      { id: 'Thei25dlXHo', title: 'Nunca - Pau', thumbnail: 'https://i.ytimg.com/vi/Thei25dlXHo/hqdefault.jpg', note: '2:53 · PauJBC' },
+      { id: '1UA81XVe0F4', title: 'CRITICAS - ERROR_429', thumbnail: 'https://i.ytimg.com/vi/1UA81XVe0F4/hqdefault.jpg', note: '2:19 · PauJBC' },
+    ],
+  },
+  social: [
+    { label: 'YouTube', href: 'https://www.youtube.com/@paujbc' },
+    { label: 'Instagram', href: 'https://www.instagram.com/paujbc/' },
+    { label: 'SoundCloud', href: 'https://soundcloud.com/elpau-coria' },
+    { label: 'GitHub', href: 'https://github.com/K47SUM070' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/pau-coria-1605792b0/' },
+    { label: 'Workana', href: 'https://www.workana.com/freelancer/b50e822d7e9939b042a6feba6658657e' },
+  ],
+  hiring: {
+    intro: 'Estoy abierto a conversar sobre oportunidades de soporte técnico, desarrollo web y seguridad informática inicial.',
+    links: [],
+  },
+};
