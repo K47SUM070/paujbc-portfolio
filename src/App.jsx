@@ -4,6 +4,7 @@ import SectionHeading from './components/SectionHeading';
 import ExternalLink from './components/ExternalLink';
 import MusicPlayer from './components/MusicPlayer';
 import Snake from './components/Snake';
+import MiniMosi from './components/MiniMosi';
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -34,6 +35,7 @@ function Hero() {
         <p className="hero-intro">{site.intro}</p>
         <p className="hero-summary">{site.summary}</p>
         <div className="hero-actions"><a className="button button-primary" href="#musica">▷ Escuchá mi música</a><a className="button button-text" href="#proyectos">Ver proyectos ↗</a><a className="button button-text" href="#trabajemos">Trabajemos juntos ↗</a></div>
+        <MiniMosi/>
       </div>
       <div className="hero-art"><div className="portrait-frame"><img src="/artist-profile.jpg" alt="PauJBC, retrato del artista" width="176" height="176" fetchPriority="high"/><span>PAU / ARCHIVO PERSONAL</span></div></div>
       <div className="hero-foot"><span>PERFIL MULTIDISCIPLINARIO</span><span>SCROLL PARA EXPLORAR ↓</span></div>
